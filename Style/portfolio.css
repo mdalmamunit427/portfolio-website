@@ -124,7 +124,8 @@ main {
 
 /* What I Do Section */
 
-.what-i-do {
+.what-i-do,
+.resume {
     margin-top: 130px;
     text-align: center;
 }
@@ -153,6 +154,55 @@ main {
     font-size: 20px;
 }
 
-.skill-description{
+.skill-description {
+    color: #757575;
+}
+
+/* Resume Section Style */
+.resume .section-title {
+    margin-bottom: 113px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-content {
+    text-align: left;
+    justify-content: center;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
     color: #757575;
 }
